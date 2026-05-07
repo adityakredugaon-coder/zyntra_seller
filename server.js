@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // Routes
-const ProductRoutes = require("./Routes/Product_Routes");
+const ProductRoutes = require("./routes/Product_Routes");
 
 
 app.use("/api/Product", ProductRoutes);
